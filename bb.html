@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horse Booking Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="tm-header">
+        <img class="tm-logo" src="https://seeklogo.com/images/H/horse-logo-9BE26B93DD-seeklogo.com.png" alt="Majestic Hotel">
+        <img class="tm-logo" src="https://seeklogo.com/images/H/horse-logo-9BE26B93DD-seeklogo.com.png" alt="Majestic Hotel">
+        <nav class="tm-nav">
+       <div>
+            <ul>
+                <li class="tm-list"><a href="hb.html">Home</a></li>
+                <li class="tm-list"><a href="index.html">Home</a></li>
+                <li class="tm-list"><a href="explore.html">Explore</a></li>
+                <li class="tm-list"><a href="rooms.html">Rooms</a></li>
+                <li class="tm-list"><a href="bb.html">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>    
+            </div>
+        </nav>
+    </header>
+  <h1>Horse Booking</h1>
+  
+  <div id="calendar"></div>
+  
+  <div id="horses">
+    <h2>Available Horses</h2>
+    <ul id="horse-list">
+        Хурдан морь
+    </ul>
+    <ul id="horse-list">
+        Гоёлын морь
+      </ul>
+      <ul id="horse-list">
+        Энгийн номхон морь
+      </ul>
+      
+  </div>
+
+  <div id="booking-form">
+    <h2>Booking Form</h2>
+    <label for="horse-select">Select Horse:</label>
+    <select id="horse-select">
+      <!-- Horses will be dynamically added here -->
+    </select>
+    <label for="date-input">Select Date:</label>
+    <input type="date" id="date-input">
+    <button id="book-btn">Book</button>
+    <p id="booking-status"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
